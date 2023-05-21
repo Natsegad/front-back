@@ -20,3 +20,15 @@
 
 - Запрос http://localhost:8000/user?user_id=1 - возращает информамцию о пользователе, требует ssid в заголовке Authorization
 Ответ json пользователя с user_id 
+
+
+# Запуск
+
+```
+git clone https://github.com/Natsegad/front-back.git 
+cd front-back
+npm i
+npm run dev
+```
+
+После заходим по пути $proj-path$/front и запускаем index.html
