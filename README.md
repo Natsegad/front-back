@@ -1,6 +1,6 @@
 # Методы
 
---Запрос http://localhost:8000/create - для создания пользователя
+-- Запрос http://localhost:8000/create - для создания пользователя
 ```json
 {
     "login":"admin",
