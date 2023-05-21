@@ -10,4 +10,13 @@
     "name":"Artem"
 }
 ```
+Ответом на этот запрос будет SSID в Заголовке Authorization и user_id
 
+- Запрос http://localhost:8000/ssdelete?user_id= - удаляет сессию пользователя с user_id требует сессионный id
+Ответ ок и статус 200 означает что сессия удалена 
+
+- Запрос http://localhost:8000/?login= &password= - для входа в аккаунт пользователя 
+Ответ user_id и id новой созданной сессии в заголовке Authorization
+
+- Запрос http://localhost:8000/user?user_id=1 - возращает информамцию о пользователе, требует ssid в заголовке Authorization
+Ответ json пользователя с user_id 
