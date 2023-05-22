@@ -1,6 +1,6 @@
 # Методы
 
-- Запрос http://localhost:8000/create - для создания пользователя
+- Запрос http://localhost:8000/create - для создания пользователя Ответом на этот запрос будет SSID в Заголовке Authorization и user_id
 ```json
 {
     "login":"admin",
@@ -10,7 +10,6 @@
     "name":"Artem"
 }
 ```
-Ответом на этот запрос будет SSID в Заголовке Authorization и user_id
 
 - Запрос http://localhost:8000/ssdelete?user_id= - удаляет сессию пользователя с user_id требует сессионный id
 Ответ ок и статус 200 означает что сессия удалена 
